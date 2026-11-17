@@ -28,6 +28,7 @@ pub struct PlayerAssets {}
 impl FromWorld for PlayerAssets {
     fn from_world(world: &mut World) -> Self {
         let assets = world.resource::<AssetServer>();
+
         Self {}
     }
 }
